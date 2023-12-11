@@ -262,25 +262,7 @@ function renderCart() {
 }
 
 function changeCount(event) {
-    // const target = event.target;
-    // const buttonPlus = target.closest('.counter-plus');
-    // const buttonMinus = target.closest('.counter-minus');
-
-    // if (buttonPlus || buttonMinus) {
-    //     const foodCard = target.closest('.food-row');
-    //     const foodId = foodCard.dataset.id;
-    //     const food = cart.find(item => item.id === foodId);
-
-    //     if (food) {
-    //         if (buttonPlus) {
-    //             increaseCount(food);
-    //         } else if (buttonMinus && food.count > 0) {
-    //             decreaseCount(food);
-    //         }
-
-    //         renderCart();
-    //     }
-    // }
+    
     const target = event.target;
 
     if (
